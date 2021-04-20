@@ -35,6 +35,12 @@ git push heroku master
 ```
 Then we need to manually setup the environmental variables using the heroku dashboard
 
+## Deploying Backend to Railway.app
+
+Click the button below to deploy, please change the JWT secret and change some code to refer to the MONGODB plugin they offer, If you don't want to change much, then after deploy find the mongodb connection url and make another ENV_var and add that.
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https%3A%2F%2Fgithub.com%2Fmanikandanraji%2Finstaclone-backend&plugins=mongodb&envs=JWT_SECRECT%2CJWT_EXPIRE&JWT_SECRECTDesc=Secret+Key+For+JWT&JWT_EXPIREDesc=When+would+the+JWT+tokens+expire&JWT_SECRECTDefault=VERY-SECURE-KEY&JWT_EXPIREDefault=30d)
+
 ## UI
 
 ### Home 
